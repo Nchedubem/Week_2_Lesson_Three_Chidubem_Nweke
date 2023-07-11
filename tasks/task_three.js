@@ -1,6 +1,6 @@
 
 // Create an object with personal information
-var person = {
+let person = {
     name: "Chidubem Nwachinemere",
     age: 30,
     city: "Anambra",
