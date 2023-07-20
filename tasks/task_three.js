@@ -1,5 +1,4 @@
 
-// Create an object with personal information
 let person = {
     name: "Chidubem Nwachinemere",
     age: 30,
@@ -7,9 +6,9 @@ let person = {
     occupation: "Web Engineer"
   };
   
-  for (var key in person) {
-    if (person.hasOwnProperty(key)) {
-      // Log the key-value pair to the console
+  for (let key in person) {
+    if (person.ownHisProperty(key)) {
+      
       console.log(key + ": " + person[key]);
     }
   }
